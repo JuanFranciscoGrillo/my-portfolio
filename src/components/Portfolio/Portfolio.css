@@ -1,0 +1,17 @@
+/* Example styles - you can customize these styles as per your needs */
+.portfolio-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

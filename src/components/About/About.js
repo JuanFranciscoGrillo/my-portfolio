@@ -1,37 +1,11 @@
+import React from 'react';
+import './About.css';
+
 const About = () => {
     return (
-      <section id="about">
-        <h2>About Me</h2>
-        <div className="about-content">
-          <p>
-            I'm Juan Grillo, a dynamic professional hailing from San Juan, PR (00917). With over 15 years of diverse experience under my belt, I'm on the hunt for a role where I can harness my expertise in customer service, management, and clerical tasks. You can reach me at jfrgm1986@gmail.com or +1 (787) 487-4262, and I'm authorized to work in the US for any employer.
-          </p>
-          <!-- Rest of your content -->
-        </div>
-      </section>
-    );
-  };
-  
-  export default About;
-  I've formatted the phone number as "+1 (787) 487-4262" for better readability.
-  
-  
-  
-  
-  User
-  give me the whole fucking full component in javascript
-  ChatGPT
-  Certainly, here's the full component in JavaScript:
-  
-  javascript
-  Copy code
-  import React from 'react';
-  
-  const About = () => {
-    return (
-      <section id="about">
-        <h2>About Me</h2>
-        <div className="about-content">
+        <section className="about-section">
+            <h2>About Me</h2>
+            <div className="about-content">
           <p>
             I'm Juan Grillo, a dynamic professional hailing from San Juan, PR (00917). With over 15 years of diverse experience under my belt, I'm on the hunt for a role where I can harness my expertise in customer service, management, and clerical tasks. You can reach me at jfrgm1986@gmail.com or +1 (787) 487-4262, and I'm authorized to work in the US for any employer.
           </p>
@@ -71,9 +45,9 @@ const About = () => {
           <p>
             So, if you're looking for a seasoned professional with a versatile skill set and a commitment to excellence, look no further. I'm here, ready to take on new challenges and contribute to your organization's success.
           </p>
-        </div>
-      </section>
+          </div>
+        </section>
     );
-  };
-  
-  export default About;
+};
+
+export default About;

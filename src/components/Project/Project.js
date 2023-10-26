@@ -52,7 +52,7 @@ const App = () => {
     },
     {
       title: 'SVG Logo Maker',
-      image: 'SVG_Logo_Maker.jpg'
+      image: 'SVG_Logo_Maker.jpg',
       githubLink: 'https://github.com/JuanFranciscoGrillo/Challenge_10-OOP.git',
     },
     {

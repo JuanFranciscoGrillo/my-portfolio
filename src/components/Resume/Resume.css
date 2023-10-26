@@ -1,0 +1,59 @@
+/* Resume Section Styles */
+#resume {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+#resume h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.resume-content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.resume-content h3 {
+  font-size: 2rem;
+  margin: 1.5rem 0 1rem 0;
+  color: #3498db;
+}
+
+.resume-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume-content ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.resume-content p {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+/* Adjustments for different elements for better structure */
+.resume-content h3:first-child {
+  margin-top: 0;
+}
+
+.resume-content p,
+.resume-content ul {
+  text-align: left;
+}
+
+/* Add some differentiation for the work experiences */
+.resume-content p {
+  font-weight: bold;
+}
+
+.resume-content ul li:before {
+  content: "• ";
+}
