@@ -1,0 +1,32 @@
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .project-card h3 {
+    font-size: 20px;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-links {
+    margin-top: 10px;
+  }
+  
+  .project-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  
